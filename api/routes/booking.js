@@ -1,22 +1,21 @@
 const express = require('express')
-const Booking = require('../models/Booking')
+const { createBooking, updateBooking, deleteBooking, getBooking, getBookings } = require('../controllers/booking.js');
 
 const router = express.Router();
 
 //CREATE
-router.post("/", (req, res) => {
+router.post("/", createBooking)
 
-    const newBooking = new Booking(req.body)
-
-    try {
-        
-    } catch(err) {
-        res.status(500).json(err)
-    }
-})
 //UPDATE
+router.put("/:id", updateBooking)
+
 //DELETE
+router.delete("/:id", deleteBooking)
+
 //GET
+router.get("/:id", getBooking)
+
 //GET ALL
+router.get("/", getBookings)
 
 module.exports = router;
