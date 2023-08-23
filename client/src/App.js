@@ -5,16 +5,14 @@ import {
   Route,
 } from "react-router-dom"
 import Home from "./pages/home/Home.jsx"
-import List from "./pages/list/List.jsx"
-import Booking from "./pages/booking/Booking.jsx";
+import SendEmail from "./pages/send-email/SendEmail.jsx";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/bookings" element={<List/>}/>
-        <Route path="/bookings/:id" element={<Booking/>}/>
+        <Route path="/send-email" element={<SendEmail/>}/>
       </Routes>
     </BrowserRouter>
   );

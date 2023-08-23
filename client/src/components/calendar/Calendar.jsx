@@ -1,4 +1,5 @@
 import "./calendar.css"
+import { Link } from 'react-router-dom'
 
 const Calendar = () => {
     const daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -29,7 +30,9 @@ const Calendar = () => {
                 </tbody>
             </table>
             <div className="book-now-button">
-                <button><b>Book Now</b></button>
+                <Link to="/send-email">
+                    <button><b>Book Now</b></button>
+                </Link>
             </div>
         </div>
     )
