@@ -1,0 +1,15 @@
+.navbar{
+    height: 60px;
+    background-color: #003b99;
+    display: flex;
+    justify-content: center;
+}
+
+.navContainer{
+    width: 100%;
+    padding: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
