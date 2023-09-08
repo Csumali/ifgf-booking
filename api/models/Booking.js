@@ -9,12 +9,16 @@ const BookingSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    startDate: {
-        type: Date,
+    date: {
+        type: String,
         required: true
     },
-    endDate: {
-        type: Date,
+    startTime: {
+        type: String,
+        required: true
+    }, 
+    endTime: {
+        type: String,
         required: true
     }
 })
