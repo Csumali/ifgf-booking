@@ -1,7 +1,69 @@
-.homeContainer {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
+.IFGF-booking {
+    background-color: #ffffff;
+    height: 1024px;
+    position: relative;
+    width: 100%;
+}
+
+.IFGF-booking .p {
+    color: #000000;
+    font-family: "Archivo-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.IFGF-booking .text-wrapper-4 {
     align-items: center;
-    gap: 30px;
+    text-align: center;
+    display: block;
+    color: #000000;
+    font-family: "Archivo-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.IFGF-booking .text-wrapper-5 {
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    display: block;
+    margin: auto;
+    font-family: "Archivo-Bold", Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    white-space: nowrap;
+    padding-top: 40px;
+}
+
+.IFGF-booking .frame-7 {
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    margin: auto;
+    gap: 20px;
+    position: relative ;
+    padding-top: 50px;
+}
+
+.IFGF-booking .button-1 {
+    color: blue;
+    border-color: blue;
+    width: 426.67px !important;
+    height: 66px !important;
+    border-radius: 6px !important;
+    padding: 12px 0px !important;
 }
