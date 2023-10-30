@@ -10,8 +10,12 @@ export const Home = () => {
       <p className="text-wrapper-5">IFGF Seattle Facility Use Request</p>
       <p className="text-wrapper-4">What are you using this facility for?</p>
       <div className="frame-7">
-        <button className="button-1">CAREGROUP / CHURCH EVENT</button>
-        <button className="button-1">BUSINESS / OTHER</button>
+        <a href="notimplemented">
+          <button className="button-1">CAREGROUP / CHURCH EVENT</button>
+        </a>
+        <a href="facility-options">
+          <button className="button-1">BUSINESS / OTHER</button>
+        </a>
       </div>
       <Footer />
     </div>

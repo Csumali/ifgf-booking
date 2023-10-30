@@ -1,44 +1,12 @@
 import React from "react";
 import "./facilityoptions.css";
+import Header from "../../components/header/Header";
+import Footer from "../../components/footer/Footer";
 
 export const FacilityOptions = () => {
   return (
     <div className="IFGF-booking">
-      <div className="frame">
-        <div className="div">
-          <img className="LOGO-IFGF-KAOS" alt="Logo IFGF KAOS" src="LOGO-IFGF-KAOS-BAPTIS-1.png" />
-          <div className="text-wrapper">Seattle</div>
-        </div>
-        <div className="frame-2">
-          <img className="img" alt="Call" src="call.svg" />
-          <div className="text-wrapper-2">Contact us</div>
-        </div>
-      </div>
-      <div className="frame-3">
-        <div className="frame-4">
-          <img className="img" alt="Location on" src="location-on.svg" />
-          <p className="international-full">
-            International Full Gospel Fellowship Seattle
-            <br />
-            12345 8th Ave NE
-            <br />
-            Seattle, WA 98125
-          </p>
-        </div>
-        <div className="frame-5">
-          <div className="frame-4">
-            <img className="img" alt="Email" src="email.svg" />
-            <div className="text-wrapper-3">office@ifgfseattle.org</div>
-          </div>
-          <div className="frame-4">
-            <img className="img" alt="Call" src="image.svg" />
-            <div className="frame-6">
-              <p className="text-wrapper-3">Phone (206) 363 – 4343</p>
-              <p className="p">Fax (206) 363 – 4343</p>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Header />
       <p className="text-wrapper-4">Which facility would you like to book?</p>
       <p className="text-wrapper-5">IFGF Seattle Facility Use Request</p>
       <div className="group">
@@ -88,6 +56,7 @@ export const FacilityOptions = () => {
         size="large"
         unstyledButtonText="BACK"
       /> */}
+      <Footer />
     </div>
   );
 };

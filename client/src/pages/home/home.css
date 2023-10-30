@@ -66,4 +66,5 @@
     height: 66px !important;
     border-radius: 6px !important;
     padding: 12px 0px !important;
+    cursor: pointer;
 }
