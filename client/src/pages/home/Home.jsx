@@ -1,20 +1,21 @@
-import Calendar from "../../components/calendar/Calendar"
-import Featured from "../../components/featured/Featured"
-import Header from "../../components/header/Header"
-import Navbar from "../../components/navbar/Navbar"
-import "./home.css"
+import React from "react";
+import Header from "../../components/header/Header";
+import Footer from "../../components/footer/Footer";
+import "./home.css";
 
-const Home = () => {
-    return (
-        <div>
-            <Navbar />
-            <Header />
-            <div className="homeContainer">
-                <Featured />
-            </div>
-            <Calendar />
-        </div>
-    )
-}
+export const Home = () => {
+  return (
+    <div className="IFGF-booking">
+      <Header />
+      <p className="text-wrapper-5">IFGF Seattle Facility Use Request</p>
+      <p className="text-wrapper-4">What are you using this facility for?</p>
+      <div className="frame-7">
+        <button className="button-1">CAREGROUP / CHURCH EVENT</button>
+        <button className="button-1">BUSINESS / OTHER</button>
+      </div>
+      <Footer />
+    </div>
+  );
+};
 
 export default Home

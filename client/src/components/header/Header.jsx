@@ -3,18 +3,13 @@ import "./header.css"
 const Header = () => {
     return (
         <div className="header">
-            <div className="headerContainer">
-                <div className="headerList">
-                    <div className="headerListItem active">
-                        <span>Gym</span>
-                    </div>
-                    <div className="headerListItem">
-                        <span>Parking Lot</span>
-                    </div>
-                    <div className="headerListItem">
-                        <span>Classroom</span>
-                    </div>
-                </div>
+            <div className="logo">
+                <img className="LOGO-IFGF-KAOS" alt="Logo IFGF KAOS" src="LOGO-IFGF-KAOS-BAPTIS-1.png" />
+                <div className="text-wrapper">Seattle</div>
+            </div>
+            <div className="contact-us">
+                <img className="img" alt="Call" src="image.svg" />
+                <div className="text-wrapper-2">Contact us</div>
             </div>
         </div>
     )

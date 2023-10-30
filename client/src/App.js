@@ -5,14 +5,14 @@ import {
   Route,
 } from "react-router-dom"
 import Home from "./pages/home/Home.jsx"
-import SendEmail from "./pages/send-email/SendEmail.jsx";
+import FacilityOptions from "./pages/facility options/FacilityOptions.jsx";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/send-email" element={<SendEmail/>}/>
+        <Route path="/facility-options" element={<FacilityOptions/>}/>
       </Routes>
     </BrowserRouter>
   );
