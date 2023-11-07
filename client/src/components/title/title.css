@@ -12,4 +12,5 @@
     position: relative;
     white-space: nowrap;
     padding-top: 40px;
+    width: fit-content;
 }

@@ -1,4 +1,4 @@
-.IFGF-booking .text-wrapper-4 {
+ .text-wrapper-4 {
     align-items: center;
     text-align: center;
     display: block;
@@ -13,7 +13,7 @@
     padding-top: 10px;
 }
   
-  .IFGF-booking .group {
+   .group {
     height: 202px;
     position: relative;
     margin-top: 52px;
@@ -24,46 +24,45 @@
     gap: 20px;
   }
   
-  .IFGF-booking .gym {
+   .gym {
     align-items: center;
-    box-shadow: 0px 4px 10px #00000026;
     display: flex;
     flex-direction: column;
     position: relative;
     width: 427px;
   }
   
-  .IFGF-booking .rectangle {
+   .rectangle {
     align-self: stretch;
     height: 160px;
     position: relative;
-    width: 100%;
+    width: 427px;
   }
   
-  .IFGF-booking .parking-lot {
+   .parking-lot {
     align-items: flex-start;
-    box-shadow: 0px 4px 10px #00000026;
     display: flex;
     flex-direction: column;
     position: relative;
     top: 0;
+    width: 427px;
   }
   
-  .IFGF-booking .classroom {
+   .classroom {
     align-items: flex-start;
-    box-shadow: 0px 4px 10px #00000026;
     display: flex;
     flex-direction: column;
     position: relative;
     top: 0;
+    width: 427px;
   }
   
-  .IFGF-booking .rectangle-2 {
+  .rectangle-2 {
     align-self: stretch;
     height: 160px;
     object-fit: cover;
     position: relative;
-    width: 100%;
+    width: 427px;
   }
 
   .button-choice {
@@ -82,9 +81,22 @@
   .button-choice:hover {
     background-position: bottom;
   }
+
+.top-section {
+    flex-direction: row;
+    align-items: flex-start;
+}
   
-  /* .IFGF-booking .button-text-instance {
-    left: 60px !important;
-    position: absolute !important;
-    top: 100px !important;
-  } */
+.back-button {
+    border-width: 0px;
+    background-color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}
+
+.back {
+    width: 88px;
+    height: 42px;
+}

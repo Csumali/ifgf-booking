@@ -1,0 +1,98 @@
+.Gym .button-choice {
+    cursor: default;
+    background: #1976D2;
+}
+
+.gym-activity-text {
+    text-align: center;
+    color: #000000;
+    font-family: "Archivo-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    white-space: nowrap;
+    margin-top: 64px;
+}
+
+.gym-activity {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 26px;
+    gap: 20px;
+}
+
+.activity {
+    position: relative;
+    width: fit-content;
+}
+.activity label {
+    position: absolute;
+    top: -10px;
+    left: 23px;
+    padding: 2px;
+    z-index: 1;
+}
+.activity label:after {
+    content: " ";
+    background-color: #fff;
+    width: 100%;
+    height: 13px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.activity-label {
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+.activity-input {
+    box-shadow: none !important;
+    border-color: #0000003B;
+    border-radius: 5px;
+    width: 420px;
+    height: 56px;
+    padding-left: 10px;
+}
+
+.group-size {
+    position: relative;
+    width: fit-content;
+}
+.group-size label {
+    position: absolute;
+    top: -10px;
+    left: 23px;
+    padding: 2px;
+    z-index: 1;
+}
+.group-size label:after {
+    content: " ";
+    background-color: #fff;
+    width: 100%;
+    height: 13px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.activity-label {
+    font-size: 12px;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: .5rem;
+    color: #00000099;
+}
+.group-size .activity-input {
+    box-shadow: none !important;
+    border-color: #0000003B;
+    border-radius: 5px;
+    width: 160px;
+    height: 56px;
+    padding-left: 10px;
+}

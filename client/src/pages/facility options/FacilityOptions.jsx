@@ -1,18 +1,24 @@
-import React from "react";
 import "./facilityoptions.css";
+
+import React from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import Title from "../../components/title/Title";
 
 export const FacilityOptions = () => {
   return (
-    <div className="IFGF-booking">
+    <div className="FacilityOptions">
       <Header />
+      <a href="/">
+        <button className="back-button">
+          <img className="back" alt="Back" src={require("../../images/back.png")} />
+        </button>
+      </a>
       <Title />
       <p className="text-wrapper-4">Which facility would you like to book?</p>
       <div className="group">
         <div className="gym">
-          <a href="notimplemented">
+          <a href="gym">
             <button className="button-choice">GYM</button>
             <img className="rectangle" alt="Rectangle" src={require("../../images/gym.png")} />
           </a>
@@ -30,15 +36,6 @@ export const FacilityOptions = () => {
           </a>
         </div>
       </div>
-      {/* <ButtonText
-        className="button-text-instance"
-        color="primary"
-        darkMode={false}
-        iconLeft
-        iconRight={false}
-        size="large"
-        unstyledButtonText="BACK"
-      /> */}
       <Footer />
     </div>
   );
