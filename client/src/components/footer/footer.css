@@ -1,13 +1,13 @@
+.footer-container {
+    margin-top: auto;
+}
+
 .footer {
     align-items: flex-start;
     background-color: #f7f7f7;
     display: flex;
     justify-content: space-between;
     padding: 24px 60px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
 }
 
 .location {

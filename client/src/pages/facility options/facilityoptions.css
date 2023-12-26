@@ -1,3 +1,9 @@
+ .FacilityOptions {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+ }
+ 
  .text-wrapper-4 {
     align-items: center;
     text-align: center;
@@ -9,7 +15,6 @@
     letter-spacing: 0;
     line-height: normal;
     position: relative;
-    margin: auto;
     padding-top: 10px;
 }
   

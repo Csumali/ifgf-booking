@@ -2,6 +2,7 @@ import "./footer.css"
 
 const Footer = () => {
     return (
+        <div className="footer-container">
         <div className="footer">
             <div className="location">
                 <img className="img" alt="Location on" src={require("../../images/location.png")} />
@@ -26,6 +27,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     )
 }

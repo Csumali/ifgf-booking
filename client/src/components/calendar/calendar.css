@@ -7,24 +7,30 @@
     align-items: center;
     flex-direction: column;
 }
-  
+
 table {
-    width: 80%;
     border-collapse: collapse;
 }
-  
-th, td {
-    border: 1px solid #ccc;
-    padding: 10px;
-    text-align: center;
-    width: 100px; /* Set a fixed width for each cell */
-    height: 20px; /* Set a fixed height for each cell */
+
+td, th {
+    border-bottom: 1px solid #0000002f;
 }
-  
-/* Add styling to the first column (time column) */
-    th:first-child, td:first-child {
-    background-color: #f2f2f2;
-    font-weight: bold;
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+th {
+    width: 100px;
+    height: 56px;
+    font-size: 14px;
+}
+
+td {
+    width: 100px;
+    height: 52px;
+    font-size: 14px;
+    text-align: center;
 }
 
 .book-now-button{

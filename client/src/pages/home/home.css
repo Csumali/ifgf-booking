@@ -1,4 +1,8 @@
-
+.IFGF-booking {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
 .IFGF-booking .p {
     color: #000000;
@@ -23,7 +27,6 @@
     letter-spacing: 0;
     line-height: normal;
     position: relative;
-    margin: auto;
     padding-top: 10px;
 }
 
@@ -32,7 +35,6 @@
     justify-content: center;
     flex-direction: row;
     display: flex;
-    margin: auto;
     gap: 20px;
     position: relative ;
     padding-top: 50px;

@@ -10,7 +10,7 @@ const Calendar = () => {
             <table>
                 <thead>
                     <tr>
-                        <th>Time</th>
+                        <th></th>
                         {daysOfWeek.map((day) => (
                         <th key={day}>{day}</th>
                         ))}

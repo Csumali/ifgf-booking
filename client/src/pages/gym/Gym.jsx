@@ -4,6 +4,7 @@ import React from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import Title from "../../components/title/Title";
+import Calendar from "../../components/calendar/Calendar";
 
 export const Gym = () => {
   return (
@@ -32,6 +33,8 @@ export const Gym = () => {
                 <input type="text" className="activity-input"/>
             </div>
         </form>
+        <p className="when-to-book">When would you like to book the facility?</p>
+        <Calendar />
         <Footer />
     </div>
   );
